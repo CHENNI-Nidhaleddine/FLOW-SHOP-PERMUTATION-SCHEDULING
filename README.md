@@ -8,6 +8,7 @@ This repository provides an implementation of branch and bound, heuristics, and 
 - [Branch and bound](#branch-and-bound)
 - [Heuristics](#heuristics)
 - [Meta Heuristics](#meta-heuristics)
+- [Technologies Used](#technologies-used)
 - [Conclusion](#conclusion)
 
 ## Flow shop permutation
@@ -21,6 +22,9 @@ Heuristic algorithms are designed to quickly find a good solution without exhaus
 
 ## Meta Heuristics
 Metaheuristic algorithms are designed to explore the search space more efficiently than heuristics by using probabilistic techniques. This section implements various metaheuristic algorithms for the flow shop permutation problem, such as simulated annealing, genetic algorithms, and tabu search.
+
+## Technologies Used
+This implementation uses Python programming language and Jupyter Notebook as the development environment. The `pyscheduling` library is used for the branch and bound algorithm.
 
 ## Conclusion
 In conclusion, this repository contains an implementation of branch and bound, heuristics, and metaheuristics for the flow shop permutation problem. The implemented algorithms aim to find the optimal sequence of tasks that minimize the total processing time for a set of jobs in a flow shop environment. The Taillard instances provided in the repository can be used to test the performance of the algorithms.
